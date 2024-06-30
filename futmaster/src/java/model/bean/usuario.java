@@ -11,7 +11,6 @@ package model.bean;
  */
 public class usuario {
     private static int idusuario;
-    private static boolean adm;
     private String nome;
     private String email;
     private String senha;
@@ -28,15 +27,6 @@ public class usuario {
         this.cpf = cpf;
         this.telefone = telefone;
     }
-
-    public static boolean isAdm() {
-        return adm;
-    }
-
-    public static void setAdm(boolean adm) {
-        usuario.adm = adm;
-    }
-    
 
     public static int getIdusuario() {
         return idusuario;

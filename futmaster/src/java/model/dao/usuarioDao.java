@@ -66,9 +66,6 @@ public class usuarioDao {
             
             if(rs.next()){
                 usuario.setIdusuario(rs.getInt("idUsuario"));
-                if(rs.getInt("idUsuario") == 1){
-                    usuario.setAdm(true);
-                }
                 System.out.println("DAO: "+usuario.getIdusuario());
             }
             
