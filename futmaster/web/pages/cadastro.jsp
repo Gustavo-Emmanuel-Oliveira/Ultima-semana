@@ -24,8 +24,8 @@
                 <input name="cpf" type="text" placeholder="Digite seu cpf" autofocus="true" />
                 <label for="password">Senha</label>
                 <input name="senha" type="password" placeholder="Digite sua senha" />
-                <input type="submit" value="Acessar" class="btn" />
-                <p>Caso não tenha uma conta: <a href="./logincontroler">Logar</a></p>
+                <input type="submit" value="Cadastrar-se" class="btn" />
+                <p>Caso já tenha uma conta: <a href="./logincontroler">Logar</a></p>
             </form>
         </div>
     </body>
