@@ -20,6 +20,14 @@
         <servlet-name>logincontroler</servlet-name>
         <servlet-class>controle.logincontroler</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>IndexController</servlet-name>
+        <servlet-class>controle.IndexController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>cadastroprodutocontrole</servlet-name>
+        <servlet-class>controle.cadastroprodutocontrole</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>dispatcher</servlet-name>
         <url-pattern>*.htm</url-pattern>
@@ -31,6 +39,22 @@
     <servlet-mapping>
         <servlet-name>logincontroler</servlet-name>
         <url-pattern>/logincontroler</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern>/inicio</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>IndexController</servlet-name>
+        <url-pattern>/deslogar</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>cadastroprodutocontrole</servlet-name>
+        <url-pattern>/cadastroproduto</url-pattern>
+    </servlet-mapping>
+     <servlet-mapping>
+        <servlet-name>cadastroprodutocontrole</servlet-name>
+        <url-pattern>/cadastrarProduto</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
