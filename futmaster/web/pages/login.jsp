@@ -13,11 +13,12 @@
         <div class="page">
             <form method="POST" class="formLogin" action="logar" enctype="multipart/form-data">
                 <h1>Login</h1>
-                <p>Entre com sua conta.</p>
+                <p>Crie por aqui sua conta.</p>
                 <label for="email">E-mail</label>
                 <input type="email" name="email" placeholder="Digite seu e-mail" />
                 <label for="password">Senha</label>
                 <input type="password" name="senha" placeholder="Digite sua senha" />
+                <a href="/">Esqueci minha senha</a>
                 <input type="submit" value="Acessar" class="btn" />
                 <p>Caso não tenha uma conta: <a href="./cadastrocontrole">Cadastrar</a></p>
             </form>
